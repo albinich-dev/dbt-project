@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: lineorder_flat
+    columns:
+      - name: LO_CUSTKEY
+        tests:
+          - not_null
+      - name: LO_SUPPKEY
+        tests:
+          - not_null
+      - name: LO_PARTKEY
+        tests:
+          - not_null
+            
+

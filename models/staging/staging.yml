@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: customer
+    columns:
+      - name: C_CUSTKEY
+        tests:
+          - unique
+          - not_null
+
+  - name: part
+    columns:
+      - name: P_PARTKEY
+        tests:
+          - unique
+          - not_null
+
+  - name: supplier
+    columns:
+      - name: S_SUPPKEY
+        tests:
+          - unique
+          - not_null
