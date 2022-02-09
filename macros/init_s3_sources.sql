@@ -68,7 +68,8 @@
         ;
 
     {% endset %}
-    
+
+
     {% set table = run_query(sql) %}
 
 

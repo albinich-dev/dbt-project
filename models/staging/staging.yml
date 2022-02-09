@@ -4,6 +4,7 @@ models:
   - name: customer
     columns:
       - name: C_CUSTKEY
+        description: "customer reference information"
         tests:
           - unique
           - not_null
@@ -11,6 +12,7 @@ models:
   - name: part
     columns:
       - name: P_PARTKEY
+        description: "part reference information"
         tests:
           - unique
           - not_null
@@ -18,6 +20,7 @@ models:
   - name: supplier
     columns:
       - name: S_SUPPKEY
+        description: "supplier reference information"
         tests:
           - unique
           - not_null
