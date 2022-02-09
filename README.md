@@ -27,7 +27,7 @@
     ORDER BY year ASC, revenue DESC;
     ```
     Результат запроса в _Q3_3.csv
-    3. **Q4.2**
+    3. <code>**Q4.2**</code>
     ```
     SELECT
     toYear(LO_ORDERDATE) AS year,
